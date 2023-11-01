@@ -57,8 +57,10 @@ p {
         background-color: white;
         list-style: none;
         }
-        ol{
-            list-style: none;
+        ol{  text-align: justify;
+            font-size: 20px;
+            line-height: 40px;
+            margin-bottom: 20px;
         }
     a:link {
         color: rgb(0, 0, 0);
