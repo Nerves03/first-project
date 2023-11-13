@@ -6,6 +6,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta property="og:title" content="Главная странца AKOS BRANDz">
 <meta property="og:site_name" content="AKOS BRANDz">
+<!-- Chrome, Firefox OS and Opera -->
+<meta name="theme-color" content="#4285f4" />
+
+<!-- Windows Phone -->
+<meta name="msapplication-navbutton-color" content="#4285f4" />
+
+<!-- iOS Safari -->
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black-transcluent" />
+
+<!-- Яндекс.Браузер -->
+<meta name="viewport" content="ya-title=#000000,ya-dock=fade" />
+
 <meta property="og:url" content="https://AKOS_BRANDz.ru">
 <meta property="og:description" content="Компания занимающаяся дизайном одежды">
 <meta property="og:image" content="https://AKOS_BRANDz.ru/img/share.jpg">
@@ -17,16 +30,44 @@
     <title>Корзина</title>
 </head>
 <body>
-    <div class="container">
-        <h1>Ваша корзина</h1>
-        <ul class="cart-list">
-            <li>Товар 1 - $0.00 <button class="remove-button">Удалить</button></li>
-            <li>Товар 2 - $0.00 <button class="remove-button">Удалить</button></li>
-            <!-- Добавьте другие товары сюда -->
-        </ul>
-        <p class="total">Итого: $0.00</p>
-        <button class="checkout-button">Оформить заказ</button>
-    </div>
+    <header>
+        <h1>AKOS BRANDz`</h1>
+        <img src="img/heart-solid.svg" alt="логотип сайта" width="50px">
+        <nav>
+            <ul>
+                <li><a href="index.html">На главную</a></li>
+            </ul>
+        </nav>
+    </header>
+    <table class="check-table">
+
+        <caption>Корзина</caption>
+
+        <thead>
+
+            <tr>
+
+                <th>Наименование</th>
+                <th>Цена</th>
+                <th>Количество</th>
+                <th>Итого</th>
+        </tr>
+    
+    </thead>
+    
+    <tbody>
+    <tr>
+        <td>Футболка Mild</td>
+        <td rowspan="2">$29.99</td>
+        <td>1<button class="remove-button">Удалить</button></td>
+        <td>$29.99 <button class="checkout-button">Оформить заказ</button></td>
+    </tr>
+    </tbody>
     <script src="script.js"></script>
-</body>
+    <footer>
+        <h1><a href="cart.html"><img src="img/корзина.png" width="60px"></a></h1> 
+        <p>&copy; Nerves?, 2023 г.</p>
+        <p>Вы также можете найти меня здесь: <a target="_blank" href="https://vk.com/nerves03/"><img src="img/вк.png" width="30px"></a><a target="_blank" href="https://www.instagram.com/nikhadik.g"><img src="img/инста.png" width="30px"></a> </p>
+    </footer>
+    </body>
 </html>
